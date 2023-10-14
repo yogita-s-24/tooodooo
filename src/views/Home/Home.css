@@ -19,8 +19,24 @@
   text-align: center;
 }
 
-.container{
-    display: flex;
-    justify-content: space-around;
-    margin: 20px 0 ;
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 7px 50px;
+  border-radius: 5px;
+}
+
+.input-field {  
+  width: 400px;
+  padding: 10px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 5px;
 }
